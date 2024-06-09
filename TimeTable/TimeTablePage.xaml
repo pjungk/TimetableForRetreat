@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeTable.TimeTablePage"
+             NavigationPage.HasNavigationBar="false"
+             BackgroundColor="{AppThemeBinding Light='#F0F0F0', Dark='#1A1A1A' }">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <RefreshView x:Name="updateView" Refreshing="Update" Grid.Row="0" Grid.Column="0" >
+                <ScrollView>
+                    <RelativeLayout>
+                        <Grid x:Name="rootGrid" Grid.Column="0" Grid.Row="0" RowSpacing="2" ColumnSpacing="2" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="40" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="68" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+
+                            <Grid x:Name="emptyGrid" Grid.Column="0" Grid.Row="0" ></Grid>
+
+
+                            <AbsoluteLayout Grid.Column="0" Grid.Row="1" VerticalOptions="FillAndExpand">
+                                <ScrollView x:Name="rowScrollView" Orientation="Vertical" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                                    <Grid x:Name="rootTimeGrid" ></Grid>
+                                </ScrollView>
+                                <BoxView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Transparent" InputTransparent="true"></BoxView>
+                            </AbsoluteLayout>
+
+
+                            <AbsoluteLayout Grid.Column="1" Grid.Row="0" VerticalOptions="FillAndExpand">
+                                <ScrollView x:Name="colScrollView" Orientation="Horizontal" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                                    <Grid x:Name="rootDayGrid" ></Grid>
+                                </ScrollView>
+                                <BoxView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Transparent" InputTransparent="true"></BoxView>
+                            </AbsoluteLayout>
+
+
+                            <AbsoluteLayout Grid.Column="1" Grid.Row="1" VerticalOptions="FillAndExpand">
+                                <ScrollView x:Name="dataScrollView" Orientation="Both" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                                    <Grid x:Name="rootMainGrid" ></Grid>
+                                </ScrollView>
+                            </AbsoluteLayout>
+                        </Grid>
+                    </RelativeLayout>
+                </ScrollView>
+            </RefreshView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

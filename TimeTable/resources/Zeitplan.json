@@ -1,0 +1,330 @@
+{
+	"RetreatTopic": "Available kitchen dark would.",
+	"Urgent": false,
+	"Memes": [
+		{
+			"FileType": "xlsx",
+			"FileUrl": "https://smith-chase.com/",
+			"Description": "Little best into treat enter party."
+		},
+		{
+			"FileType": "mp3",
+			"FileUrl": "http://www.turner.biz/",
+			"Description": "Rest three event show paper wish year decade."
+		}
+	],
+	"ColorScheme": [
+		{
+			"CategoryName": "accept",
+			"ColorCode": "#9e26d4"
+		},
+		{
+			"CategoryName": "force",
+			"ColorCode": "#4ff1e4"
+		},
+		{
+			"CategoryName": "expect",
+			"ColorCode": "#1b9c96"
+		},
+		{
+			"CategoryName": "FreeTime",
+			"ColorCode": "#00FF00"
+		}
+	],
+	"RetreatSupervisors": [
+		{
+			"Name": "Luis Cruz",
+			"FileUrl": "http://moore.com/"
+		},
+		{
+			"Name": "Lisa Bennett",
+			"FileUrl": "http://smith.com/"
+		},
+		{
+			"Name": "Darrell Payne",
+			"FileUrl": "https://www.wells.net/"
+		}
+	],
+	"Days": [
+		{
+			"Weekday": "Wednesday",
+			"DailySupervisor": "Grace Norman",
+			"Activities": [
+				{
+					"Remark": "Reality door buy company whether travel.",
+					"Start": 13.0,
+					"End": 14.0,
+					"Topic": "physical",
+					"Location": "Markshire",
+					"Category": "FreeTime",
+					"Instructor": "Justin Mason",
+					"Description": "Few court test house. Although interesting class late yard mind suddenly that.\nTelevision whole send. Authority officer state doctor. Site have TV find cell part."
+				},
+				{
+					"Remark": "Message prove large recently court.",
+					"Start": 16.25,
+					"End": 17.25,
+					"Topic": "tree",
+					"Location": "Veronicahaven",
+					"Category": "accept",
+					"Instructor": "Nicholas Ibarra",
+					"Description": "Far even every. Medical word short report crime anything. During along hand civil month.\nPicture bank better smile. Single picture eye thank receive sister."
+				},
+				{
+					"Remark": "Respond really eat woman win.",
+					"Start": 10.5,
+					"End": 11.0,
+					"Topic": "company",
+					"Location": "North Maurice",
+					"Category": "expect",
+					"Instructor": "Chelsea Garcia",
+					"Description": "Research challenge dark second situation attorney. Likely audience likely small. Sure feeling thought positive."
+				},
+				{
+					"Remark": "Recent toward song history.",
+					"Start": 15.5,
+					"End": 17.25,
+					"Topic": "election",
+					"Location": "Harrisberg",
+					"Category": "accept",
+					"Instructor": "Michelle Swanson",
+					"Description": "South catch easy everything court why foot simple. Guess thing later weight."
+				},
+				{
+					"Remark": "Control according painting forget far each.",
+					"Start": 17.0,
+					"End": 18.5,
+					"Topic": "great",
+					"Location": "Miguelhaven",
+					"Category": "FreeTime",
+					"Instructor": "Lori Cole",
+					"Description": "Cut account any open expert project. Prevent behind whose material bill she professional without.\nItself culture not reach vote. Run Mr bad trip speech. Never man matter ago good industry body."
+				}
+			]
+		},
+		{
+			"Weekday": "Tuesday",
+			"DailySupervisor": "Monica Taylor",
+			"Activities": [
+				{
+					"Remark": "Threat turn answer analysis number oil use.",
+					"Start": 16.5,
+					"End": 17.5,
+					"Topic": "imagine",
+					"Location": "Jasonfort",
+					"Category": "FreeTime",
+					"Instructor": "Kelly Hill",
+					"Description": "Issue how worry. Upon impact success who check space finally major.\nWe four still participant how part."
+				},
+				{
+					"Remark": "Public statement per involve.",
+					"Start": 12.25,
+					"End": 15.25,
+					"Topic": "wife",
+					"Location": "Shawview",
+					"Category": "accept",
+					"Instructor": "Diana Wolfe",
+					"Description": "Case body kitchen book. Rock parent effort major fish century cause. Least ten feel help bag international.\nNight common main hotel charge throw. Brother society expect without. Choose smile network."
+				},
+				{
+					"Remark": "Full discussion age player dream.",
+					"Start": 17.5,
+					"End": 17.75,
+					"Topic": "page",
+					"Location": "Nelsonstad",
+					"Category": "accept",
+					"Instructor": "Edward Henry",
+					"Description": "Add consider study color wind decide. Get citizen firm central threat thank middle.\nArrive employee short whose remember friend. Show left during keep born appear spend."
+				},
+				{
+					"Remark": "Understand early event film consumer.",
+					"Start": 17.0,
+					"End": 18.75,
+					"Topic": "boy",
+					"Location": "North Victoriastad",
+					"Category": "accept",
+					"Instructor": "Victoria Moore",
+					"Description": "Decision break take as. Theory keep involve lay occur debate. Operation bill land together enjoy.\nStock hot since ask instead authority. People point if culture."
+				},
+				{
+					"Remark": "Food turn performance long.",
+					"Start": 11.75,
+					"End": 13.0,
+					"Topic": "student",
+					"Location": "Tonistad",
+					"Category": "expect",
+					"Instructor": "Rachel Harmon",
+					"Description": "Plant tough law probably blue. Understand car win situation condition trade."
+				}
+			]
+		},
+		{
+			"Weekday": "Tuesday",
+			"DailySupervisor": "Darren Smith II",
+			"Activities": [
+				{
+					"Remark": "Four language deal air five several range.",
+					"Start": 8.75,
+					"End": 12.75,
+					"Topic": "old",
+					"Location": "Port Andrewside",
+					"Category": "FreeTime",
+					"Instructor": "Ryan Stewart",
+					"Description": "School civil fight memory help executive. Answer history recognize manager side happen. Their address rest when.\nTechnology realize major subject name. Two federal land statement present trial drug."
+				},
+				{
+					"Remark": "Exist stand evening.",
+					"Start": 14.5,
+					"End": 17.75,
+					"Topic": "space",
+					"Location": "Rickyside",
+					"Category": "force",
+					"Instructor": "Tiffany Lane",
+					"Description": "Finish hear college raise seat professor eat. Might generation write coach sit way.\nSpend real possible name. Difficult check painting heart. Value green anyone free than choose or."
+				},
+				{
+					"Remark": "Me challenge book before.",
+					"Start": 13.5,
+					"End": 15.5,
+					"Topic": "his",
+					"Location": "Lake Paulmouth",
+					"Category": "accept",
+					"Instructor": "Jennifer Johnson",
+					"Description": "But stage share million senior fill government reflect. Police some reveal support process quite around campaign. Plan Mr condition voice."
+				},
+				{
+					"Remark": "Current government only training plan.",
+					"Start": 10.75,
+					"End": 11.0,
+					"Topic": "store",
+					"Location": "North Jacobshire",
+					"Category": "force",
+					"Instructor": "Ashley Wilson",
+					"Description": "Year together town first hot clearly enter. Among office play nature.\nEverybody protect little produce he section. Address special share last plant. Myself full employee lose get act."
+				},
+				{
+					"Remark": "Miss family opportunity plan when.",
+					"Start": 16.75,
+					"End": 19.0,
+					"Topic": "few",
+					"Location": "North Richard",
+					"Category": "accept",
+					"Instructor": "Amy Martin",
+					"Description": "Establish itself report cultural occur road. Late even human. Girl hour beat trip wind."
+				}
+			]
+		},
+		{
+			"Weekday": "Saturday",
+			"DailySupervisor": "Tyler Lowe",
+			"Activities": [
+				{
+					"Remark": "Station message personal class.",
+					"Start": 12.75,
+					"End": 14.0,
+					"Topic": "lose",
+					"Location": "Rodriguezland",
+					"Category": "FreeTime",
+					"Instructor": "Rachel Smith",
+					"Description": "According seem nature suggest sister effort. Focus bank weight daughter woman fact hundred. His under add maintain smile social walk."
+				},
+				{
+					"Remark": "Few recently already practice story purpose phone.",
+					"Start": 10.25,
+					"End": 12.75,
+					"Topic": "force",
+					"Location": "South David",
+					"Category": "expect",
+					"Instructor": "Nicholas Richards",
+					"Description": "Social front specific into Mr rather society understand. Road nation do training."
+				},
+				{
+					"Remark": "Agreement among garden contain seven.",
+					"Start": 9.5,
+					"End": 10.25,
+					"Topic": "evidence",
+					"Location": "Ramirezland",
+					"Category": "expect",
+					"Instructor": "Elizabeth Weber",
+					"Description": "Town who mission she. Special way unit military. Continue hair ahead expect by environmental name.\nNote behind watch by man. Yes fear rate issue."
+				},
+				{
+					"Remark": "Base capital identify seven.",
+					"Start": 17.0,
+					"End": 19.5,
+					"Topic": "admit",
+					"Location": "South Jasonfort",
+					"Category": "force",
+					"Instructor": "Christopher Chen",
+					"Description": "Service such station. Direction have game executive risk though member. Image over article run camera."
+				},
+				{
+					"Remark": "Laugh image area east.",
+					"Start": 13.25,
+					"End": 17.25,
+					"Topic": "miss",
+					"Location": "Hallland",
+					"Category": "FreeTime",
+					"Instructor": "Nancy Horn",
+					"Description": "At girl son. Chance fine bed police stock build only age.\nSomeone Mr culture else. Morning any president color.\nDark suddenly by wide. However civil party."
+				}
+			]
+		},
+		{
+			"Weekday": "Monday",
+			"DailySupervisor": "Brenda Potter",
+			"Activities": [
+				{
+					"Remark": "Box message join fire reason.",
+					"Start": 9.25,
+					"End": 11.25,
+					"Topic": "safe",
+					"Location": "Lopezport",
+					"Category": "force",
+					"Instructor": "Brianna Kelly",
+					"Description": "Your miss hope mention only. Can really husband professional. Up bill old region wear. Imagine cold model entire number.\nSouth population school mean director Mr."
+				},
+				{
+					"Remark": "Cause that commercial rather.",
+					"Start": 10.0,
+					"End": 12.75,
+					"Topic": "certain",
+					"Location": "Johnsonside",
+					"Category": "expect",
+					"Instructor": "Julie Gaines",
+					"Description": "See give pull. Everyone military none describe hospital. Resource life once contain."
+				},
+				{
+					"Remark": "Pattern ball nothing exactly.",
+					"Start": 14.25,
+					"End": 16.0,
+					"Topic": "land",
+					"Location": "Andrewtown",
+					"Category": "expect",
+					"Instructor": "Jonathan Miller",
+					"Description": "Own throw form big ask. North majority ahead pretty. Girl article do health. News relationship benefit they sea agree."
+				},
+				{
+					"Remark": "Source threat kitchen financial.",
+					"Start": 11.0,
+					"End": 11.75,
+					"Topic": "strategy",
+					"Location": "Hansonberg",
+					"Category": "FreeTime",
+					"Instructor": "Jasmine Vazquez",
+					"Description": "On order international.\nEven result lose record enter born. Notice position reveal like how magazine set company. Body PM sometimes."
+				},
+				{
+					"Remark": "Sound so probably.",
+					"Start": 9.5,
+					"End": 13.5,
+					"Topic": "college",
+					"Location": "South Lisa",
+					"Category": "expect",
+					"Instructor": "Julie Green",
+					"Description": "Artist might she join. Laugh direction modern drive dark answer artist. Whole expect light senior hear.\nUp protect develop none statement worry on."
+				}
+			]
+		}
+	]
+}

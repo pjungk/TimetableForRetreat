@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Prob useless\**" />
+    <EmbeddedResource Remove="Prob useless\**" />
+    <None Remove="Prob useless\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="resources\images\Fionula.png" />
+    <None Remove="resources\images\freeTime.jpg" />
+    <None Remove="resources\images\Friedrich.png" />
+    <None Remove="resources\images\Jan.png" />
+    <None Remove="resources\images\Jule.png" />
+    <None Remove="resources\images\Leonie.png" />
+    <None Remove="resources\properties.json" />
+    <None Remove="resources\sounds\lang_audio.mp3" />
+    <None Remove="resources\Zeitplan.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="resources\images\Fionula.png" />
+    <EmbeddedResource Include="resources\images\freeTime.jpg" />
+    <EmbeddedResource Include="resources\images\Friedrich.png" />
+    <EmbeddedResource Include="resources\images\Jan.png" />
+    <EmbeddedResource Include="resources\images\Jule.png" />
+    <EmbeddedResource Include="resources\images\Leonie.png" />
+    <EmbeddedResource Include="resources\sounds\lang_audio.mp3" />
+    <EmbeddedResource Include="resources\Zeitplan.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.14" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Plugin.MediaManager" Version="1.1.1" />
+    <PackageReference Include="Xam.Plugin.Connectivity" Version="3.2.0" />
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.6.0" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2478" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="resources\images\Leonie.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ActivityInfoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DayInfoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="FreetimeInfoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MemesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TimeTablePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

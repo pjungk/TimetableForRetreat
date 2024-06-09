@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeTable.FreetimeInfoPage"
+             BackgroundColor="{AppThemeBinding Light='#F0F0F0', Dark='#1A1A1A' }">
+
+    <ContentPage.Content>
+        <Grid x:Name="rootGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="5*" />
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Text="FREE TIME" FontSize="40" FontAttributes="Bold" Margin="0,3,0,10" HorizontalOptions="Center" VerticalOptions="Center" TextColor="{AppThemeBinding Light= black, Dark='#F0F0F0' }" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

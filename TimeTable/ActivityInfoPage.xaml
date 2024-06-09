@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeTable.ActivityInfoPage"
+             BackgroundColor="{AppThemeBinding Light='#F0F0F0', Dark='#1A1A1A' }">
+
+    <ContentPage.Content>
+        <Grid RowSpacing="2" ColumnSpacing="2">
+            <Grid.RowDefinitions>
+                <RowDefinition x:Name="achtung" Height="0"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" x:Name="remarkLbl" BackgroundColor="Red" FontSize="25"></Label>
+
+            <Grid Grid.Row="1" RowSpacing="2" ColumnSpacing="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="0.5*" />
+                </Grid.RowDefinitions>
+
+
+                <Label Grid.Row="0" Grid.Column="0" x:Name="themeLblQ" FontSize="25" FontAttributes="Bold" TextColor="Black" />
+                <Label Grid.Row="0" Grid.Column="1" x:Name="themeLblA" FontSize="20" TextColor="Black" />
+
+                <Label Grid.Row="1" Grid.Column="0" x:Name="timeLblQ" FontSize="25" FontAttributes="Bold" TextColor="Black" />
+                <Label Grid.Row="1" Grid.Column="1" x:Name="timeLblA" FontSize="20" TextColor="Black" />
+
+                <Label Grid.Row="2" Grid.Column="0" x:Name="placeLblQ" FontSize="25" FontAttributes="Bold" TextColor="Black" />
+                <Label Grid.Row="2" Grid.Column="1" x:Name="placeLblA" FontSize="20" TextColor="Black" />
+
+                <Label Grid.Row="3" Grid.Column="0" x:Name="guidesLblQ" FontSize="25" FontAttributes="Bold" TextColor="Black" />
+                <Label Grid.Row="3" Grid.Column="1" x:Name="guidesLblA" FontSize="20" TextColor="Black" />
+
+                <Label Grid.Row="4" Grid.Column="0" x:Name="descriptionLblQ" FontSize="25" FontAttributes="Bold" TextColor="Black" />
+                <Label Grid.Row="4" Grid.Column="1" x:Name="descriptionLblA" FontSize="20" TextColor="Black" />
+
+                <Label Grid.Row="5" Grid.Column="0" x:Name="categoryLblQ" FontSize="25" FontAttributes="Bold" TextColor="Black" />
+                <Label Grid.Row="5" Grid.Column="1" x:Name="categoryLblA" FontSize="20" TextColor="Black" />
+            </Grid>
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
